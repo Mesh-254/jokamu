@@ -20,8 +20,7 @@ const OfficeLocation = () => {
           Our Office Location
         </h2>
         <p className="text-lg text-left text-white/90 leading-relaxed mb-12">
-          We have in Nairobi, strategically positioned to serve clients across
-          the country.
+          We have offices in Mutomo.
         </p>
 
         {/* Custom Link with Arrow */}

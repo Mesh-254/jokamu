@@ -7,6 +7,11 @@ import config from "../config/index.jsx";
 import Features from "./Features.jsx";
 import OurStory from "./OurStory.jsx";
 import OfficeLocation from "./OfficeLocations.jsx";
+import ServicesDetails from "./services/ServicesDetails.jsx";
+import ClientFocus from "./services/ClientFocus.jsx";
+import ProductList from "./products/ProductList.jsx";
+import ContactUs from "./location/ContactUs.jsx";
+import LocationDetails from "./location/LocationDetails.jsx";
 
 const Layout = () => {
   return (
@@ -33,10 +38,33 @@ const Layout = () => {
             </>
           }
         />
-        {/* <Route path="/about" element={<div>About</div>} />
-        <Route path="/services" element={<div>Services</div>} />
-        <Route path="/products" element={<div>Products</div>} />
-        <Route path="/location" element={<div>Location</div>} /> */}
+        <Route
+          path="/services"
+          element={
+            <>
+              <ServicesDetails />
+
+              <ClientFocus />
+            </>
+          }
+        />
+        <Route
+          path="/products"
+          element={
+            <>
+              <ProductList />
+            </>
+          }
+        />
+        <Route
+          path="/location"
+          element={
+            <>
+              <LocationDetails />
+              <ContactUs />
+            </>
+          }
+        />
       </Routes>
       <Footer />
     </BrowserRouter>
