@@ -501,7 +501,8 @@ const products = [
     name: "DUSTLESS CHALK",
     category: "accessories",
     price: 85,
-    image: "https://nairobisportshouse.com/media/cache/69/09/6909dbf9c2cd742213149c293c91c299@2x.webp",
+    image:
+      "https://nairobisportshouse.com/media/cache/69/09/6909dbf9c2cd742213149c293c91c299@2x.webp",
     description: "Smooth, dust-free chalk for clean classroom use.",
   },
   {
@@ -518,7 +519,8 @@ const products = [
     name: "CROTCHETS",
     category: "accessories",
     price: 70,
-    image: "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/crotchet_ver_1.png",
+    image:
+      "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/crotchet_ver_1.png",
     description: "Durable crotchets for knitting and crafts.",
   },
   {
@@ -535,7 +537,8 @@ const products = [
     name: "WHITE OUT",
     category: "accessories",
     price: 85,
-    image: "https://m.media-amazon.com/images/I/71gTlB-HI5L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/71gTlB-HI5L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     description: "Correction fluid for neatly fixing written errors.",
   },
   {
@@ -543,7 +546,8 @@ const products = [
     name: "QUIRE BOOK 1",
     category: "product",
     price: 125,
-    image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/9684903/1.jpg?1391",
+    image:
+      "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/74/9684903/1.jpg?1391",
     description: "1-quire book for extended note-taking needs.",
   },
   {
@@ -551,7 +555,8 @@ const products = [
     name: "QUIRE BOOK 2",
     category: "product",
     price: 235,
-    image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/81/597547/1.jpg?9800",
+    image:
+      "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/81/597547/1.jpg?9800",
     description: "2-quire notebook for long-term writing.",
   },
   {
@@ -559,7 +564,8 @@ const products = [
     name: "QUIRE BOOK 3",
     category: "product",
     price: 275,
-    image: "https://mydolphin.co.ke/cdn/shop/files/CounterBookKasuku3Quire_1100x.jpg?v=1718801313",
+    image:
+      "https://mydolphin.co.ke/cdn/shop/files/CounterBookKasuku3Quire_1100x.jpg?v=1718801313",
     description: "3-quire book, thick and durable for classroom use.",
   },
   {
@@ -567,7 +573,8 @@ const products = [
     name: "QUIRE BOOK 4",
     category: "product",
     price: 350,
-    image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/4739803/1.jpg?2681",
+    image:
+      "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/05/4739803/1.jpg?2681",
     description: "Heavy-duty 4-quire notebook for intensive writing.",
   },
   {
@@ -584,7 +591,8 @@ const products = [
     name: "FLEXIBLE RULERS",
     category: "accessories",
     price: 40,
-    image: "https://www.africanbookhub.co.ke/wp-content/uploads/2022/08/s34-2661p01wl.jpg",
+    image:
+      "https://www.africanbookhub.co.ke/wp-content/uploads/2022/08/s34-2661p01wl.jpg",
     description: "Bendable rulers for durability and versatile measuring.",
   },
   {
@@ -592,7 +600,8 @@ const products = [
     name: "STUDENT ERASERS",
     category: "accessories",
     price: 10,
-    image: "https://m.media-amazon.com/images/I/71aZHtYn7NL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    image:
+      "https://m.media-amazon.com/images/I/71aZHtYn7NL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     description: "Soft erasers for pencil mark removal.",
   },
   {
@@ -600,7 +609,8 @@ const products = [
     name: "SHARPENERS",
     category: "accessories",
     price: 10,
-    image: "https://cdn.mafrservices.com/sys-master-root/h34/h31/17384310571038/14989_main.jpg?im=Resize=400",
+    image:
+      "https://cdn.mafrservices.com/sys-master-root/h34/h31/17384310571038/14989_main.jpg?im=Resize=400",
     description: "Compact sharpeners for smooth pencil sharpening.",
   },
   {
@@ -617,7 +627,8 @@ const products = [
     name: "VEDA COLOURS",
     category: "accessories",
     price: 130,
-    image: "https://www.myveda.co.ke/wp-content/uploads/2019/08/crayons-4638-1-800x800.jpg",
+    image:
+      "https://www.myveda.co.ke/wp-content/uploads/2019/08/crayons-4638-1-800x800.jpg",
     description: "High-quality Veda brand coloring set for art.",
   },
   {
@@ -625,7 +636,8 @@ const products = [
     name: "A4 ENVELOPES",
     category: "accessories",
     price: 10,
-    image: "https://www.africanbookhub.co.ke/wp-content/uploads/2022/08/A4-Envelopes-C4-Brown-Manilla.jpg",
+    image:
+      "https://www.africanbookhub.co.ke/wp-content/uploads/2022/08/A4-Envelopes-C4-Brown-Manilla.jpg",
     description: "Standard A4 envelopes for document mailing.",
   },
   {
@@ -633,7 +645,8 @@ const products = [
     name: "A5 ENVELOPES",
     category: "accessories",
     price: 5,
-    image: "https://www.plannettech.co.ke/wp-content/uploads/2024/02/BROWN-MANILA-ENVELOPE-A5-25-PACK-700x700-1.jpg",
+    image:
+      "https://www.plannettech.co.ke/wp-content/uploads/2024/02/BROWN-MANILA-ENVELOPE-A5-25-PACK-700x700-1.jpg",
     description: "Small A5 size envelopes for smaller documents.",
   },
   {
@@ -641,7 +654,8 @@ const products = [
     name: "DL ENVELOPES",
     category: "accessories",
     price: 5,
-    image: "https://www.africanbookhub.co.ke/wp-content/uploads/2022/11/dl-envelopes.jpg",
+    image:
+      "https://www.africanbookhub.co.ke/wp-content/uploads/2022/11/dl-envelopes.jpg",
     description: "DL-size envelopes ideal for letters and forms.",
   },
   {
@@ -657,7 +671,8 @@ const products = [
     name: "A5 NOTEBOOKS HANDCOVER",
     category: "product",
     price: 120,
-    image: "https://theschoolbox.co.ke/wp-content/uploads/2023/03/a5-notebook.jpg",
+    image:
+      "https://theschoolbox.co.ke/wp-content/uploads/2023/03/a5-notebook.jpg",
     description: "Durable hardcover A5 notebook for journaling.",
   },
   {
@@ -673,7 +688,8 @@ const products = [
     name: "A6 NOTEBOOK",
     category: "product",
     price: 60,
-    image: "https://i5.walmartimages.com/seo/24-Pack-Kraft-Paper-Notebooks-A6-Size-4x6-Writing-Journal-80-Lined-Pages-Notebook-Set-Students-Kids-Classroom-Travel-Business-Office-Supplies_b27212e2-5418-4bef-a7df-60f046913dc4.4a95e53785b86ab2a4c0317c5879ef1a.jpeg",
+    image:
+      "https://i5.walmartimages.com/seo/24-Pack-Kraft-Paper-Notebooks-A6-Size-4x6-Writing-Journal-80-Lined-Pages-Notebook-Set-Students-Kids-Classroom-Travel-Business-Office-Supplies_b27212e2-5418-4bef-a7df-60f046913dc4.4a95e53785b86ab2a4c0317c5879ef1a.jpeg",
     description: "Compact A6 notebook for portable writing.",
   },
   {
@@ -690,7 +706,8 @@ const products = [
     name: "HB EXTRA DARK PENCILS",
     category: "accessories",
     price: 10,
-    image: "https://5.imimg.com/data5/SELLER/Default/2023/5/311870142/YL/WI/XT/190510474/extra-dark-pencils-1000x1000.jpg",
+    image:
+      "https://5.imimg.com/data5/SELLER/Default/2023/5/311870142/YL/WI/XT/190510474/extra-dark-pencils-1000x1000.jpg",
     description: "Extra dark HB pencils for clear writing.",
   },
   {
@@ -698,7 +715,8 @@ const products = [
     name: "OBAMA",
     category: "accessories",
     price: 10,
-    image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/3914503/1.jpg?7328",
+    image:
+      "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/46/3914503/1.jpg?7328",
     description: "Economical writing pencil for everyday use.",
   },
   {
@@ -706,7 +724,8 @@ const products = [
     name: "SHARP POINTED",
     category: "accessories",
     price: 25,
-    image: "https://i0.wp.com/kenyastationeryshop.com/wp-content/uploads/2024/07/bic-pen-sharp-pointed.jpg?fit=600%2C600&ssl=1",
+    image:
+      "https://i0.wp.com/kenyastationeryshop.com/wp-content/uploads/2024/07/bic-pen-sharp-pointed.jpg?fit=600%2C600&ssl=1",
     description: "Precision-pointed pencil ideal for technical drawing.",
   },
   {
@@ -714,7 +733,8 @@ const products = [
     name: "MARK PEN",
     category: "accessories",
     price: 70,
-    image: "https://www.plannettech.co.ke/wp-content/uploads/2024/02/DELI-U101-THINK-PERMANENT-CHISEL-MARKERS.jpg",
+    image:
+      "https://www.plannettech.co.ke/wp-content/uploads/2024/02/DELI-U101-THINK-PERMANENT-CHISEL-MARKERS.jpg",
     description: "Permanent marker pen for labeling and marking.",
   },
   {
@@ -730,7 +750,8 @@ const products = [
     name: "CBC PP2",
     category: "product",
     price: 180,
-    image: "https://fastlanebooks.co.ke/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Intensive-Encyclopedia-CBC-Pre-Primary-2.jpg.webp",
+    image:
+      "https://fastlanebooks.co.ke/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2024/01/Intensive-Encyclopedia-CBC-Pre-Primary-2.jpg.webp",
     description: "CBC PP2 learning material book.",
   },
   {
@@ -738,7 +759,8 @@ const products = [
     name: "CBC GRADE 1",
     category: "product",
     price: 180,
-    image: "https://mastepbookshop.com/glarufoa/2022/01/044_Gal0gAi-705x1024.jpg",
+    image:
+      "https://mastepbookshop.com/glarufoa/2022/01/044_Gal0gAi-705x1024.jpg",
     description: "CBC Grade 1 educational book.",
   },
   {
@@ -754,7 +776,8 @@ const products = [
     name: "CBC GRADE 3",
     category: "product",
     price: 180,
-    image: "https://savanisbookcentre.co.ke/wp-content/uploads/2024/11/IMG_20241123_104821_5352-scaled.jpg",
+    image:
+      "https://savanisbookcentre.co.ke/wp-content/uploads/2024/11/IMG_20241123_104821_5352-scaled.jpg",
     description: "CBC Grade 3 educational book.",
   },
   {
@@ -770,7 +793,8 @@ const products = [
     name: "MATHS SET",
     category: "accessories",
     price: 200,
-    image: "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/02/0454711/1.jpg?0122",
+    image:
+      "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/02/0454711/1.jpg?0122",
     description: "Essential maths set for school geometry.",
   },
   {
@@ -778,7 +802,8 @@ const products = [
     name: "STAPLER SMALL",
     category: "accessories",
     price: 180,
-    image: "https://topperskit.com/cdn/shop/files/30_7657b6dd-4a67-44a3-aca3-2fdf1d9694fa.jpg?v=1706186108&width=493",
+    image:
+      "https://topperskit.com/cdn/shop/files/30_7657b6dd-4a67-44a3-aca3-2fdf1d9694fa.jpg?v=1706186108&width=493",
     description: "Small-sized stapler for paper binding.",
   },
   {
@@ -786,7 +811,8 @@ const products = [
     name: "STAPLER PINS",
     category: "accessories",
     price: 70,
-    image: "https://officemart.co.ke/media/cache/82/dd/82ddefabbec66e3979b41305a2dd741c@2x.webp",
+    image:
+      "https://officemart.co.ke/media/cache/82/dd/82ddefabbec66e3979b41305a2dd741c@2x.webp",
     description: "Pack of standard stapler pins.",
   },
   {
@@ -794,7 +820,8 @@ const products = [
     name: "PUNCH",
     category: "accessories",
     price: 200,
-    image: "https://officemart.co.ke/media/cache/dc/2c/dc2c75e8b0551f11e102a91e866c0b5b@2x.webp",
+    image:
+      "https://officemart.co.ke/media/cache/dc/2c/dc2c75e8b0551f11e102a91e866c0b5b@2x.webp",
     description: "Paper punch for creating binder holes.",
   },
   {
@@ -802,7 +829,8 @@ const products = [
     name: "SCISSORS",
     category: "accessories",
     price: 90,
-    image: "https://economyofbrighton.co.uk/cdn/shop/files/ezgif.com-jpg-to-webp-converter.webp?v=1743069766&width=823",
+    image:
+      "https://economyofbrighton.co.uk/cdn/shop/files/ezgif.com-jpg-to-webp-converter.webp?v=1743069766&width=823",
     description: "Multi-purpose scissors for paper and fabric.",
   },
   {
@@ -810,7 +838,8 @@ const products = [
     name: "GLUE STICK",
     category: "accessories",
     price: 80,
-    image: "https://i0.wp.com/www.officepoint.co.ke/wp-content/uploads/2021/03/OFFICEPOINT_0000_GLUE-STICK.png?fit=800%2C764&ssl=1",
+    image:
+      "https://i0.wp.com/www.officepoint.co.ke/wp-content/uploads/2021/03/OFFICEPOINT_0000_GLUE-STICK.png?fit=800%2C764&ssl=1",
     description: "Glue stick for mess-free pasting.",
   },
   {
@@ -818,7 +847,8 @@ const products = [
     name: "LIQUID GLUE",
     category: "accessories",
     price: 70,
-    image: "https://mydolphin.co.ke/cdn/shop/files/LiquidGlue90gms_288x.jpg?v=1719401208",
+    image:
+      "https://mydolphin.co.ke/cdn/shop/files/LiquidGlue90gms_288x.jpg?v=1719401208",
     description: "Liquid adhesive for crafts and schoolwork.",
   },
   {
@@ -826,7 +856,8 @@ const products = [
     name: "HIGHLIGHTER",
     category: "accessories",
     price: 50,
-    image: "https://i0.wp.com/kibangabooks.com/wp-content/uploads/2024/10/IMG_8155-scaled.jpeg?resize=1535%2C2048&ssl=1",
+    image:
+      "https://i0.wp.com/kibangabooks.com/wp-content/uploads/2024/10/IMG_8155-scaled.jpeg?resize=1535%2C2048&ssl=1",
     description: "Bright-colored highlighter for marking key points.",
   },
   {
@@ -834,7 +865,8 @@ const products = [
     name: "NOTE PADS",
     category: "product",
     price: 70,
-    image: "https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/legacy_dam/en-gb/S001885126/NPIB-33900-FY24-Q4-Supershoot-Stills-Dew-Notepad-v3-002",
+    image:
+      "https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,q_auto:best,t_productPageHeroGalleryTransformation_v2,w_auto/legacy_dam/en-gb/S001885126/NPIB-33900-FY24-Q4-Supershoot-Stills-Dew-Notepad-v3-002",
     description: "Handy notepads for daily notes and reminders.",
   },
 ];
@@ -941,7 +973,13 @@ const ProductList = () => {
                   <span className="text-2xl font-bold text-emerald-500">
                     Ksh. {product.price.toFixed(2)}
                   </span>
-                  <button className="bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation(); // Prevent triggering the card click
+                      window.location.href = "/location#contact-form";
+                    }}
+                    className="bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
+                  >
                     Order Now
                   </button>
                 </div>

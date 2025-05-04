@@ -1,18 +1,19 @@
-// import AboutUsImage from "../assets/about-us-image.jpg";
+import OurValues from "../assets/our_values.jpeg";
+
 const OfficeLocation = () => {
   return (
-    <section className="relative w-full min-h-screen grid md:grid-cols-2 bg-[#111111]">
-      {/* Image */}
-      <div className="relative h-[50vh] md:h-auto">
+    <section className="relative w-full bg-[#111111] flex flex-col md:flex-row">
+      {/* Image - Changed from fixed height to auto height and object-contain */}
+      <div className="relative w-full md:w-1/2 flex items-center justify-center py-8 md:py-0">
         <img
-          src="https://images.unsplash.com/photo-1736117705462-34145ac33bdf?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Interior Decoration"
-          className="w-full h-full object-cover"
+          src={OurValues || "/placeholder.svg"}
+          alt="Our Values"
+          className="w-full h-auto max-h-[80vh] object-contain"
         />
       </div>
 
       {/* Content */}
-      <div className="p-8 md:p-16 lg:p-24 flex flex-col justify-center">
+      <div className="p-8 md:p-16 lg:p-24 flex flex-col justify-center w-full md:w-1/2">
         <h3 className="text-[#E6D5B8] text-sm tracking-[0.25em] mb-6">
           OFFICE LOCATION
         </h3>
@@ -20,7 +21,7 @@ const OfficeLocation = () => {
           Our Office Location
         </h2>
         <p className="text-lg text-left text-white/90 leading-relaxed mb-12">
-          We have offices in Mutomo.
+          We have offices in Mutomo & Wote.
         </p>
 
         {/* Custom Link with Arrow */}

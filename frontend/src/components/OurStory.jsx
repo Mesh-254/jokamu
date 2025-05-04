@@ -12,18 +12,24 @@ const OurStory = () => {
             <h2 className="text-3xl text-left font-bold text-gray-900 sm:text-4xl">
               About Us
             </h2>
+            <p className="text-lg text-gray-600 text-left text-lg">
+              Cyber Technologies and group of companies has branches in Mutomo
+              Town,Kitui County and Wote Branch,Makueni County. Wote Branch,we
+              are located alongside ABSA Bank Road next to Airtel Customer Care
+              Shop,near Mumu Supermarket.
+            </p>
+
             <p className="text-lg text-gray-600 text-left text-lg ">
-              At <span className="text-[green] font-bold"> Jokamu</span>{" "}
-              <span className="text-[purple] font-bold"> ltd</span>, We provide
-              top-tier printing, scanning, and book-selling solutions, ensuring
-              precision, efficiency, and quality in every service. Whether you
-              need crisp prints, high-resolution scans, or a diverse selection
-              of books, we cater to your needs with reliability and excellence.
-              Your documents, prints, and reading materials—handled with care.
+              We provide top-tier printing, scanning, and book-selling
+              solutions, ensuring precision, efficiency, and quality in every
+              service. Whether you need crisp prints, high-resolution scans, or
+              a diverse selection of books, we cater to your needs with
+              reliability and excellence. Your documents, prints, and reading
+              materials handled with care.
             </p>
             <div className="space-y-4 font-medium">
               {[
-               " Seamless Printing & Scanning Solutions",
+                " Seamless Printing & Scanning Solutions",
                 "Precision in Quality and Execution",
                 "Scalable Services for Every Need",
               ].map((feature, index) => (
