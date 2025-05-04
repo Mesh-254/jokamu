@@ -1,21 +1,20 @@
 "use client";
 
 // import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Mail } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail } from "lucide-react";
 
 const Footer = () => {
   const navigationLinks = [
     { name: "Services", href: "/services" },
     { name: "Products", href: "/products" },
-    { name: "Contact", href: "/contact" },
+    { name: "location", href: "/location" },
   ];
 
   const socialLinks = [
     { name: "Facebook", icon: Facebook, href: "https://facebook.com" },
     { name: "Twitter", icon: Twitter, href: "https://twitter.com" },
     { name: "Instagram", icon: Instagram, href: "https://instagram.com" },
-    { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-    { name: "Email", icon: Mail, href: "mailto:info@example.com" },
+    { name: "Email", icon: Mail, href: "mailto:jokamucybertech2025@gmail.com" },
   ];
 
   return (
@@ -53,19 +52,41 @@ const Footer = () => {
           {/* Contact Information */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <address className="not-italic text-gray-400 space-y-2">
-              <p>123 Kitui-Kibwezi Road</p>
-              <p>Mutomo Business District</p>
-              <p>Mutomo, State 12345</p>
-              <p className="mt-4">
-                <a
-                  href="tel:+1234567890"
-                  className="hover:text-white transition-colors"
-                >
-                  (123) 456-7890
-                </a>
-              </p>
-            </address>
+            <div className="space-y-6">
+              {/* Mutomo Branch */}
+              <div>
+                <h4 className="font-medium text-white">Mutomo Branch</h4>
+                <address className="not-italic text-gray-400 space-y-2">
+                  <p>Mutomo Business District</p>
+                  <p className="mt-2">
+                    <a
+                      href="mailto:jokamucybertech@gmail.com"
+                      className="hover:text-white transition-colors flex items-center"
+                    >
+                      <Mail className="h-4 w-4 mr-2" />
+                      jokamucybertech@gmail.com
+                    </a>
+                  </p>
+                </address>
+              </div>
+
+              {/* Wote Branch */}
+              <div>
+                <h4 className="font-medium text-white">Wote Branch</h4>
+                <address className="not-italic text-gray-400 space-y-2">
+                  <p>Wote Town</p>
+                  <p className="mt-2">
+                    <a
+                      href="mailto:jokamucybertech2025@gmail.com"
+                      className="hover:text-white transition-colors flex items-center"
+                    >
+                      <Mail className="h-4 w-4 mr-2" />
+                      jokamucybertech2025@gmail.com
+                    </a>
+                  </p>
+                </address>
+              </div>
+            </div>
           </div>
 
           {/* Social Links */}
