@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
@@ -18,15 +20,22 @@ const LocationDetails = () => {
       style: isSatellite
         ? "mapbox://styles/mapbox/satellite-v9"
         : "mapbox://styles/mapbox/streets-v11",
-      center: [-1.8467, 38.2077], //mutomo cordinates
+      center: [-1.8467374, 38.207778], // Exact Mutomo coordinates
       zoom: 13,
     });
 
     // Add navigation controls
     map.current.addControl(new mapboxgl.NavigationControl());
 
-    // Add marker
-    new mapboxgl.Marker().setLngLat([-97.2945, 33.0843]).addTo(map.current);
+    // Add marker with popup for Mutomo Branch
+    new mapboxgl.Marker()
+      .setLngLat([-1.8467374, 38.207778])
+      .setPopup(
+        new mapboxgl.Popup({ offset: 25 }).setHTML(
+          "<h3>Mutomo Branch</h3><p>Kitui-Kibwezi Highway 114</p>"
+        )
+      )
+      .addTo(map.current);
 
     return () => map.current?.remove();
   }, []); // Only run once on mount
@@ -50,15 +59,27 @@ const LocationDetails = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-[#E6D5B8] text-sm tracking-[0.25em] mb-4">
-                OUR LOCATION
+                OUR LOCATIONS
               </h3>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-4">
-                112 Jokamu ltd
+                Mutomo Branch
               </h1>
               <div className="text-xl md:text-2xl text-gray-300 font-serif">
-                13410 Kitui-Kibwezi Highway 114
+                Kitui-Kibwezi Highway 114
                 <br />
                 Mutomo
+              </div>
+
+              <br />
+              <div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-4">
+                  Wote Branch
+                </h1>
+                <div className="text-xl md:text-2xl text-gray-300 font-serif">
+                  ABSA Bank Road next to Airtel Customer Care Shop
+                  <br />
+                  Wote
+                </div>
               </div>
             </div>
 
